@@ -16,7 +16,7 @@ dead_cycle_data = []
 total_dead_cycle_data = []
 offspring_cycle_data = []
 
-class Entity():
+class Entity:
     def __init__(self, genome):
         self.organism = Organism(genome)
         self.ent_int = random.randint(1, 100000)
